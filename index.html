@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>Loader</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="main__shadow">
+        <div class="main__slides">
+          <div class="main__slide main__slide-1" data-link="section-1"></div>
+          <div class="main__slide main__slide-2" data-link="section-2"></div>
+          <div class="main__slide main__slide-3" data-link="section-3"></div>
+        </div>
+        <div class="loader loader__top">
+          <div class="loader__square"></div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__top-icon">
+            <div class="icon__outer-box">
+              <div class="icon__inner-box"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="loader loader__bot">
+          <div class="loader__square"></div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+          <div class="loader__bubble">
+            <ion-icon name="paw" class="bubble__icon"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button class="btn">
+      <ion-icon name="paw" class="btn__icon"></ion-icon>
+    </button>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
